@@ -1,13 +1,20 @@
 SELECT 
-    pe.name,
-    vd.VRN,
-    COUNT(*) AS offence_count,
-    SUM(r.fine) AS total_fine
+    p.name AS owner_name,
+    v.VRN,
+    COUNT(o.date_time) AS offence_count,
+    SUM(r.fine) AS total_fines
 FROM Offence o
-JOIN Rules r ON o.rule_no = r.rule_no
-JOIN Vehicle_Decom vd ON o.VRN = vd.VRN
-JOIN Person pe ON vd.NRIC = pe.NRIC
-LEFT JOIN Resident res ON vd.NRIC = res.NRIC
-LEFT JOIN Accesses a ON a.unit_number = res.unit_number AND a.postal_code = res.postal_code AND a.carpark_id = o.VRN
-WHERE a.carpark_id IS NULL
-GROUP BY pe.name, vd.VRN;
+JOIN Vehicle_Decom v ON o.VRN = v.VRN
+JOIN Person p ON v.NRIC = p.NRIC
+JOIN Rules r ON o.rule_no = r.rule_no AND o.vehicle_type = r.vehicle_type
+JOIN Accesses a ON o.VRN = v.VRN
+JOIN Resident res ON p.NRIC = res.NRIC
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM Accesses a2
+    WHERE a2.carpark_id = o.carpark_id
+      AND a2.unit_number = res.unit_number
+      AND a2.postal_code = res.postal_code
+)
+GROUP BY p.name, v.VRN
+ORDER BY total_fines DESC;

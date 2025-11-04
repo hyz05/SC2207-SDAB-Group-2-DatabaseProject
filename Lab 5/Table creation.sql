@@ -10,10 +10,11 @@ CREATE TABLE Person (
 GO
 
 CREATE TABLE Rules (
-    rule_no INT PRIMARY KEY,
+    rule_no INT NOT NULL,
     description NVARCHAR(255),
     fine DECIMAL(10, 2),
-    vehicle_type NVARCHAR(50)
+    vehicle_type NVARCHAR(50) NOT NULL,
+    PRIMARY KEY (rule_no, vehicle_type)
 );
 GO
 
@@ -33,17 +34,6 @@ CREATE TABLE Vehicle_Decom (
     vehicle_category NVARCHAR(50),
     CONSTRAINT FK_VehicleDecom_Person FOREIGN KEY (NRIC) REFERENCES Person(NRIC),
     CONSTRAINT FK_VehicleDecom_Model FOREIGN KEY (model) REFERENCES Model_Brand(model)
-);
-GO
-
-CREATE TABLE Offence (
-    date_time DATETIME NOT NULL,
-    rule_no INT NOT NULL,
-    VRN VARCHAR(20) NOT NULL,
-    officer_name NVARCHAR(100),
-    PRIMARY KEY (date_time, rule_no, VRN),
-    CONSTRAINT FK_Offence_Rules FOREIGN KEY (rule_no) REFERENCES Rules(rule_no),
-    CONSTRAINT FK_Offence_Vehicle FOREIGN KEY (VRN) REFERENCES Vehicle_Decom(VRN)
 );
 GO
 
@@ -89,6 +79,23 @@ CREATE TABLE MSCP (
     number_of_deck INT,
     clearance_height DECIMAL(4, 2),
     CONSTRAINT FK_MSCP_Carpark FOREIGN KEY (carpark_id) REFERENCES Carpark(carpark_id)
+);
+GO
+
+CREATE TABLE Offence (
+    date_time DATETIME NOT NULL,
+    rule_no INT NOT NULL,
+    vehicle_type NVARCHAR(50) NOT NULL,
+    VRN VARCHAR(20) NOT NULL,
+    carpark_id VARCHAR(20) NOT NULL,
+    officer_name NVARCHAR(100),
+    PRIMARY KEY (date_time, rule_no, VRN),
+    CONSTRAINT FK_Offence_Rules FOREIGN KEY (rule_no, vehicle_type)
+        REFERENCES Rules(rule_no, vehicle_type),
+    CONSTRAINT FK_Offence_Vehicle FOREIGN KEY (VRN)
+        REFERENCES Vehicle_Decom(VRN),
+    CONSTRAINT FK_Offence_Carpark FOREIGN KEY (carpark_id)
+        REFERENCES Carpark(carpark_id)
 );
 GO
 
