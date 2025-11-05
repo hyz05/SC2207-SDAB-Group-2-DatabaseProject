@@ -232,11 +232,10 @@ INSERT INTO MSCP VALUES ('CP024', 6, 2.10);
 INSERT INTO MSCP VALUES ('CP025', 5, 2.00);
 
 -- LotType_ColourCode
-INSERT INTO LotType_ColourCode VALUES ('W', 'White');        -- General lot
-INSERT INTO LotType_ColourCode VALUES ('Y', 'Yellow');       -- Reserved / season parking
-INSERT INTO LotType_ColourCode VALUES ('R', 'Red');          -- Disabled lot
-INSERT INTO LotType_ColourCode VALUES ('B', 'Blue');         -- Short-term / loading
-INSERT INTO LotType_ColourCode VALUES ('G', 'Green');        -- Motorcycle lot
+INSERT INTO LotType_ColourCode VALUES ('W', 'White');
+INSERT INTO LotType_ColourCode VALUES ('B', 'Bi-coloured');
+INSERT INTO LotType_ColourCode VALUES ('R', 'Red');         
+INSERT INTO LotType_ColourCode VALUES ('Y', 'Yellow');         
 
 -- Carpark_Lot_Decom
 INSERT INTO Carpark_Lot_Decom VALUES (1,  'CP001', 'W');
@@ -244,13 +243,13 @@ INSERT INTO Carpark_Lot_Decom VALUES (2,  'CP003', 'Y');
 INSERT INTO Carpark_Lot_Decom VALUES (3,  'CP005', 'W');
 INSERT INTO Carpark_Lot_Decom VALUES (4,  'CP007', 'R');
 INSERT INTO Carpark_Lot_Decom VALUES (5,  'CP009', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (6,  'CP011', 'G');
+INSERT INTO Carpark_Lot_Decom VALUES (6,  'CP011', 'B');
 INSERT INTO Carpark_Lot_Decom VALUES (7,  'CP013', 'W');
 INSERT INTO Carpark_Lot_Decom VALUES (8,  'CP015', 'Y');
 INSERT INTO Carpark_Lot_Decom VALUES (9,  'CP017', 'W');
 INSERT INTO Carpark_Lot_Decom VALUES (10, 'CP019', 'R');
 INSERT INTO Carpark_Lot_Decom VALUES (11, 'CP021', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (12, 'CP023', 'G');
+INSERT INTO Carpark_Lot_Decom VALUES (12, 'CP023', 'B');
 INSERT INTO Carpark_Lot_Decom VALUES (13, 'CP002', 'W');
 INSERT INTO Carpark_Lot_Decom VALUES (14, 'CP004', 'Y');
 INSERT INTO Carpark_Lot_Decom VALUES (15, 'CP006', 'B');
@@ -402,8 +401,8 @@ INSERT INTO Season_Rate VALUES ('Motorcycle', 'MSCP', 17.00);
 INSERT INTO Season_Rate VALUES ('Car','MSCP', 110.00);     
 INSERT INTO Season_Rate VALUES ('Commercial Vehicle','MSCP', 185.00);     
 
--- Season_Parking_Pass_Decom
-INSERT INTO Season_Parking_Pass_Decom VALUES (2001, 'Car', 'MSCP');      
+-- Season_Parking_Pass_Decom	
+INSERT INTO Season_Parking_Pass_Decom VALUES (2001, 'Car', 'Surface');      
 INSERT INTO Season_Parking_Pass_Decom VALUES (2002, 'Car', 'MSCP');         
 INSERT INTO Season_Parking_Pass_Decom VALUES (2003, 'Motorcycle', 'Surface');
 INSERT INTO Season_Parking_Pass_Decom VALUES (2004, 'Motorcycle', 'MSCP');  
