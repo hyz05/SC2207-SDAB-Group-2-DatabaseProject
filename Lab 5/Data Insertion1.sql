@@ -182,25 +182,13 @@ INSERT INTO Carpark VALUES ('CP005', N'Yes', N'7am to 10pm');
 INSERT INTO Carpark VALUES ('CP007', N'Yes', N'6am to 11pm');
 INSERT INTO Carpark VALUES ('CP009', N'Yes', N'24 Hours');
 INSERT INTO Carpark VALUES ('CP011', N'Yes', N'8am to 10pm');
-INSERT INTO Carpark VALUES ('CP013', N'Yes', N'24 Hours');
-INSERT INTO Carpark VALUES ('CP015', N'Yes', N'7am to 9pm');
-INSERT INTO Carpark VALUES ('CP017', N'Yes', N'24 Hours');
-INSERT INTO Carpark VALUES ('CP019', N'Yes', N'6am to 11pm');
-INSERT INTO Carpark VALUES ('CP021', N'Yes', N'24 Hours');
-INSERT INTO Carpark VALUES ('CP023', N'Yes', N'7am to 10pm');
 INSERT INTO Carpark VALUES ('CP002', N'No', N'None');
 INSERT INTO Carpark VALUES ('CP004', N'No', N'None');
 INSERT INTO Carpark VALUES ('CP006', N'No', N'None');
 INSERT INTO Carpark VALUES ('CP008', N'No', N'None');
 INSERT INTO Carpark VALUES ('CP010', N'No', N'None');
 INSERT INTO Carpark VALUES ('CP012', N'No', N'None');
-INSERT INTO Carpark VALUES ('CP014', N'No', N'None');
-INSERT INTO Carpark VALUES ('CP016', N'No', N'None');
-INSERT INTO Carpark VALUES ('CP018', N'No', N'None');
-INSERT INTO Carpark VALUES ('CP020', N'No', N'None');
-INSERT INTO Carpark VALUES ('CP022', N'No', N'None');
-INSERT INTO Carpark VALUES ('CP024', N'No', N'None');
-INSERT INTO Carpark VALUES ('CP025', N'No', N'None');
+
 
 -- Surface_Carpark
 INSERT INTO Surface_Carpark VALUES ('CP001');
@@ -209,12 +197,6 @@ INSERT INTO Surface_Carpark VALUES ('CP005');
 INSERT INTO Surface_Carpark VALUES ('CP007');
 INSERT INTO Surface_Carpark VALUES ('CP009');
 INSERT INTO Surface_Carpark VALUES ('CP011');
-INSERT INTO Surface_Carpark VALUES ('CP013');
-INSERT INTO Surface_Carpark VALUES ('CP015');
-INSERT INTO Surface_Carpark VALUES ('CP017');
-INSERT INTO Surface_Carpark VALUES ('CP019');
-INSERT INTO Surface_Carpark VALUES ('CP021');
-INSERT INTO Surface_Carpark VALUES ('CP023');
 
 -- MSCP
 INSERT INTO MSCP VALUES ('CP002', 5, 2.10);
@@ -223,13 +205,6 @@ INSERT INTO MSCP VALUES ('CP006', 4, 1.80);
 INSERT INTO MSCP VALUES ('CP008', 5, 2.00);
 INSERT INTO MSCP VALUES ('CP010', 7, 2.30);
 INSERT INTO MSCP VALUES ('CP012', 6, 2.10);
-INSERT INTO MSCP VALUES ('CP014', 5, 2.50);
-INSERT INTO MSCP VALUES ('CP016', 4, 1.90);
-INSERT INTO MSCP VALUES ('CP018', 6, 2.20);
-INSERT INTO MSCP VALUES ('CP020', 5, 2.00);
-INSERT INTO MSCP VALUES ('CP022', 7, 2.30);
-INSERT INTO MSCP VALUES ('CP024', 6, 2.10);
-INSERT INTO MSCP VALUES ('CP025', 5, 2.00);
 
 -- LotType_ColourCode
 INSERT INTO LotType_ColourCode VALUES ('W', 'White');
@@ -244,25 +219,12 @@ INSERT INTO Carpark_Lot_Decom VALUES (3,  'CP005', 'W');
 INSERT INTO Carpark_Lot_Decom VALUES (4,  'CP007', 'R');
 INSERT INTO Carpark_Lot_Decom VALUES (5,  'CP009', 'W');
 INSERT INTO Carpark_Lot_Decom VALUES (6,  'CP011', 'B');
-INSERT INTO Carpark_Lot_Decom VALUES (7,  'CP013', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (8,  'CP015', 'Y');
-INSERT INTO Carpark_Lot_Decom VALUES (9,  'CP017', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (10, 'CP019', 'R');
-INSERT INTO Carpark_Lot_Decom VALUES (11, 'CP021', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (12, 'CP023', 'B');
 INSERT INTO Carpark_Lot_Decom VALUES (13, 'CP002', 'W');
 INSERT INTO Carpark_Lot_Decom VALUES (14, 'CP004', 'Y');
 INSERT INTO Carpark_Lot_Decom VALUES (15, 'CP006', 'B');
 INSERT INTO Carpark_Lot_Decom VALUES (16, 'CP008', 'W');
 INSERT INTO Carpark_Lot_Decom VALUES (17, 'CP010', 'Y');
 INSERT INTO Carpark_Lot_Decom VALUES (18, 'CP012', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (19, 'CP014', 'B');
-INSERT INTO Carpark_Lot_Decom VALUES (20, 'CP016', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (21, 'CP018', 'Y');
-INSERT INTO Carpark_Lot_Decom VALUES (22, 'CP020', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (23, 'CP022', 'B');
-INSERT INTO Carpark_Lot_Decom VALUES (24, 'CP024', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (25, 'CP025', 'Y');
 
 INSERT INTO Carpark_Lot_Decom VALUES (26, 'CP001', 'W');
 INSERT INTO Carpark_Lot_Decom VALUES (27, 'CP001', 'B');
