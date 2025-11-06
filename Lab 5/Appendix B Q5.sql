@@ -7,20 +7,9 @@ WITH CarparkThresholds AS (
             SELECT COUNT(*) 
             FROM Purchases p 
             WHERE p.carpark_id = c.carpark_id 
-            AND MONTH(p.validity_start) = 10 
-            AND YEAR(p.validity_start) = 2025
-        ), 0) AS passes_sold,
-        CASE 
-            WHEN ISNULL((
-                SELECT COUNT(*) 
-                FROM Purchases p 
-                WHERE p.carpark_id = c.carpark_id 
-                AND MONTH(p.validity_start) = 10 
-                AND YEAR(p.validity_start) = 2025
-            ), 0) >= COUNT(DISTINCT cl.lot_id) * 0.9 
-            THEN 'Threshold Reached - Residents Only'
-            ELSE 'Open to All'
-        END AS status
+              AND p.validity_start >= '2025-10-01'
+              AND p.validity_start < '2025-11-01'
+        ), 0) AS passes_sold
     FROM Carpark c
     JOIN Carpark_Lot_Decom cl ON c.carpark_id = cl.carpark_id
     GROUP BY c.carpark_id
@@ -46,14 +35,14 @@ CarparkNonResidents AS (
                 SELECT 1 
                 FROM Accesses a 
                 WHERE a.carpark_id = ct.carpark_id 
-                AND a.unit_number = vo.unit_number 
-                AND a.postal_code = vo.postal_code
+                  AND a.unit_number = vo.unit_number 
+                  AND a.postal_code = vo.postal_code
             ) THEN 'Resident of this carpark'
             ELSE 'Non-resident of this carpark'
         END AS residency_status
     FROM VehicleOwners vo
     CROSS JOIN CarparkThresholds ct
-    WHERE vo.unit_number IS NOT NULL AND vo.postal_code IS NOT NULL  -- Only consider actual residents
+    WHERE vo.unit_number IS NOT NULL AND vo.postal_code IS NOT NULL
 )
 SELECT 
     cnr.VRN,
@@ -62,12 +51,19 @@ SELECT
     ct.passes_sold AS current_passes_sold,
     ct.total_lots,
     ct.threshold_90_percent,
-    ct.status AS carpark_status,
+    CASE 
+        WHEN ct.passes_sold >= ct.total_lots THEN 'Full ¨C No available spots'
+        WHEN ct.passes_sold >= ct.threshold_90_percent THEN 'Threshold Reached ¨C Residents Only'
+        ELSE 'Open to All'
+    END AS carpark_status,
     cnr.residency_status,
     CASE 
-        WHEN ct.status = 'Threshold Reached - Residents Only' AND cnr.residency_status = 'Non-resident of this carpark'
+        WHEN ct.passes_sold >= ct.total_lots THEN 'FAIL - Full: No available spots'
+        WHEN ct.passes_sold >= ct.threshold_90_percent 
+             AND cnr.residency_status = 'Non-resident of this carpark'
         THEN 'FAIL - Blocked: 90% threshold reached (residents only)'
-        WHEN ct.status = 'Threshold Reached - Residents Only' AND cnr.residency_status = 'Resident of this carpark'
+        WHEN ct.passes_sold >= ct.threshold_90_percent 
+             AND cnr.residency_status = 'Resident of this carpark'
         THEN 'SUCCESS - Eligible (resident of this carpark)'
         ELSE 'SUCCESS - Eligible for purchase (open to all)'
     END AS purchase_result
@@ -78,8 +74,8 @@ WHERE NOT EXISTS (
     FROM Purchases p 
     WHERE p.VRN = cnr.VRN 
       AND p.carpark_id = ct.carpark_id
-      AND MONTH(p.validity_start) = 10
-      AND YEAR(p.validity_start) = 2025
+      AND p.validity_start >= '2025-10-01'
+      AND p.validity_start < '2025-11-01'
 )
 ORDER BY 
     ct.carpark_id,
