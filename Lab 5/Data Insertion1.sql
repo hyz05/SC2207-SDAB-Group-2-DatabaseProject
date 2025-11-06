@@ -32,7 +32,7 @@ INSERT INTO Person VALUES ('S4344778Y', N'Ong Pei Yi', '93447788', 'ongpy2@gmail
 INSERT INTO Model_Brand VALUES (N'Civic', N'Honda');
 INSERT INTO Model_Brand VALUES (N'Altis', N'Toyota');
 INSERT INTO Model_Brand VALUES (N'Ninja', N'Kawasaki');
-INSERT INTO Model_Brand VALUES (N'F-150', N'Ford');
+INSERT INTO Model_Brand VALUES (N'Transit', N'Ford');
 INSERT INTO Model_Brand VALUES (N'R15', N'Yamaha');
 INSERT INTO Model_Brand VALUES (N'Actros', N'Mercedes-Benz');
 
@@ -41,24 +41,24 @@ INSERT INTO Vehicle_Decom VALUES ('SGX1234A', 'IU00112233', 'S1234567A', N'Red',
 INSERT INTO Vehicle_Decom VALUES ('SGY5678B', 'IU99887766', 'S7654321B', N'Blue', 2020, N'Altis', N'Car');
 INSERT INTO Vehicle_Decom VALUES ('SMR1001A', 'IU10101010', 'S1122334C', N'Black', 2021, N'Ninja', N'Motorcycle');
 INSERT INTO Vehicle_Decom VALUES ('SMC2002B', 'IU20202020', 'S2233445D', N'Red', 2020, N'Civic', N'Car');
-INSERT INTO Vehicle_Decom VALUES ('SML3003C', 'IU30303030', 'S3344556E', N'White', 2019, N'F-150', N'Commercial Vehicle');
+INSERT INTO Vehicle_Decom VALUES ('SML3003C', 'IU30303030', 'S3344556E', N'White', 2019, N'Transit', N'Commercial Vehicle');
 INSERT INTO Vehicle_Decom VALUES ('SMR4004D', 'IU40404040', 'S4455667F', N'Blue', 2022, N'R15', N'Motorcycle');
 INSERT INTO Vehicle_Decom VALUES ('SML5005E', 'IU50505050', 'S5566778G', N'Silver', 2018, N'Actros', N'Commercial Vehicle');
 INSERT INTO Vehicle_Decom VALUES ('SMC6006F', 'IU60606060', 'S6677889H', N'Green', 2017, N'Civic', N'Car');
 INSERT INTO Vehicle_Decom VALUES ('SMR7007G', 'IU70707070', 'S7788990I', N'Yellow', 2021, N'Ninja', N'Motorcycle');
-INSERT INTO Vehicle_Decom VALUES ('SML8008H', 'IU80808080', 'S8899001J', N'Grey', 2019, N'F-150', N'Commercial Vehicle');
+INSERT INTO Vehicle_Decom VALUES ('SML8008H', 'IU80808080', 'S8899001J', N'Grey', 2019, N'Transit', N'Commercial Vehicle');
 INSERT INTO Vehicle_Decom VALUES ('SMC9009I', 'IU90909090', 'S9900112K', N'White', 2020, N'Altis', N'Car');
 INSERT INTO Vehicle_Decom VALUES ('SMR1010J', 'IU10101011', 'S1011223L', N'Black', 2022, N'R15', N'Motorcycle');
 INSERT INTO Vehicle_Decom VALUES ('SML1111K', 'IU11111111', 'S2122334M', N'Silver', 2018, N'Actros', N'Commercial Vehicle');
 INSERT INTO Vehicle_Decom VALUES ('SMC1212L', 'IU12121212', 'S3233445N', N'Blue', 2019, N'Civic', N'Car');
 INSERT INTO Vehicle_Decom VALUES ('SMR1313M', 'IU13131313', 'S4344556O', N'Red', 2021, N'Ninja', N'Motorcycle');
-INSERT INTO Vehicle_Decom VALUES ('SML1414N', 'IU14141414', 'S5455667P', N'Green', 2020, N'F-150', N'Commercial Vehicle');
+INSERT INTO Vehicle_Decom VALUES ('SML1414N', 'IU14141414', 'S5455667P', N'Green', 2020, N'Transit', N'Commercial Vehicle');
 INSERT INTO Vehicle_Decom VALUES ('SMC1515O', 'IU15151515', 'S6566778Q', N'Blue', 2020, N'Altis', N'Car');
 INSERT INTO Vehicle_Decom VALUES ('SMR1616P', 'IU16161616', 'S6677001R', N'Yellow', 2021, N'R15', N'Motorcycle');
 INSERT INTO Vehicle_Decom VALUES ('SML1717Q', 'IU17171717', 'S7788112S', N'Grey', 2019, N'Actros', N'Commercial Vehicle');
 INSERT INTO Vehicle_Decom VALUES ('SMC1818R', 'IU18181818', 'S8899223T', N'White', 2018, N'Civic', N'Car');
 INSERT INTO Vehicle_Decom VALUES ('SMR1919S', 'IU19191919', 'S9900334U', N'Black', 2022, N'Ninja', N'Motorcycle');
-INSERT INTO Vehicle_Decom VALUES ('SML2020T', 'IU20202021', 'S1011445V', N'Red', 2017, N'F-150', N'Commercial Vehicle');
+INSERT INTO Vehicle_Decom VALUES ('SML2020T', 'IU20202021', 'S1011445V', N'Red', 2017, N'Transit', N'Commercial Vehicle');
 INSERT INTO Vehicle_Decom VALUES ('SMC2121U', 'IU21212121', 'S2122556W', N'Silver', 2021, N'Altis', N'Car');
 INSERT INTO Vehicle_Decom VALUES ('SMR2222V', 'IU22222222', 'S3233667X', N'Blue', 2020, N'R15', N'Motorcycle');
 INSERT INTO Vehicle_Decom VALUES ('SML2323W', 'IU23232323', 'S4344778Y', N'White', 2018, N'Actros', N'Commercial Vehicle');
