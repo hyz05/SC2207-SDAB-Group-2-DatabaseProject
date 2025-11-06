@@ -212,119 +212,220 @@ INSERT INTO LotType_ColourCode VALUES ('B', 'Bi-coloured');
 INSERT INTO LotType_ColourCode VALUES ('R', 'Red');         
 INSERT INTO LotType_ColourCode VALUES ('Y', 'Yellow');         
 
--- Carpark_Lot_Decom
-INSERT INTO Carpark_Lot_Decom VALUES (1,  'CP001', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (2,  'CP003', 'Y');
-INSERT INTO Carpark_Lot_Decom VALUES (3,  'CP005', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (4,  'CP007', 'R');
-INSERT INTO Carpark_Lot_Decom VALUES (5,  'CP009', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (6,  'CP011', 'B');
-INSERT INTO Carpark_Lot_Decom VALUES (13, 'CP002', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (14, 'CP004', 'Y');
-INSERT INTO Carpark_Lot_Decom VALUES (15, 'CP006', 'B');
-INSERT INTO Carpark_Lot_Decom VALUES (16, 'CP008', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (17, 'CP010', 'Y');
-INSERT INTO Carpark_Lot_Decom VALUES (18, 'CP012', 'W');
+	-- Carpark_Lot_Decom
+	INSERT INTO Carpark_Lot_Decom VALUES (1,  'CP001', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (2,  'CP001', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (3,  'CP001', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (4,  'CP001', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (5,  'CP001', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (6,  'CP001', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (7,  'CP001', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (8,  'CP001', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (9,  'CP001', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (10, 'CP001', 'W');
 
-INSERT INTO Carpark_Lot_Decom VALUES (26, 'CP001', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (27, 'CP001', 'B');
-INSERT INTO Carpark_Lot_Decom VALUES (28, 'CP001', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (29, 'CP001', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (30, 'CP001', 'Y');
-INSERT INTO Carpark_Lot_Decom VALUES (31, 'CP001', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (32, 'CP001', 'R');
-INSERT INTO Carpark_Lot_Decom VALUES (33, 'CP001', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (34, 'CP001', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (11, 'CP002', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (12, 'CP002', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (13, 'CP002', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (14, 'CP002', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (15, 'CP002', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (16, 'CP002', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (17, 'CP002', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (18, 'CP002', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (19, 'CP002', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (20, 'CP002', 'W');
 
-INSERT INTO Carpark_Lot_Decom VALUES (35, 'CP002', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (36, 'CP002', 'R');
-INSERT INTO Carpark_Lot_Decom VALUES (37, 'CP002', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (38, 'CP002', 'Y');
-INSERT INTO Carpark_Lot_Decom VALUES (39, 'CP002', 'R');
-INSERT INTO Carpark_Lot_Decom VALUES (40, 'CP002', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (41, 'CP002', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (42, 'CP002', 'B');
-INSERT INTO Carpark_Lot_Decom VALUES (43, 'CP002', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (21, 'CP003', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (22, 'CP003', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (23, 'CP003', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (24, 'CP003', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (25, 'CP003', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (26, 'CP003', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (27, 'CP003', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (28, 'CP003', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (29, 'CP003', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (30, 'CP003', 'W');
 
-INSERT INTO Carpark_Lot_Decom VALUES (44, 'CP003', 'R');
-INSERT INTO Carpark_Lot_Decom VALUES (45, 'CP003', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (46, 'CP003', 'B');
-INSERT INTO Carpark_Lot_Decom VALUES (47, 'CP003', 'Y');
-INSERT INTO Carpark_Lot_Decom VALUES (48, 'CP003', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (49, 'CP003', 'R');
-INSERT INTO Carpark_Lot_Decom VALUES (50, 'CP003', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (51, 'CP003', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (52, 'CP003', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (31, 'CP004', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (32, 'CP004', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (33, 'CP004', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (34, 'CP004', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (35, 'CP004', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (36, 'CP004', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (37, 'CP004', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (38, 'CP004', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (39, 'CP004', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (40, 'CP004', 'W');
 
-INSERT INTO Carpark_Lot_Decom VALUES (53, 'CP004', 'R');
-INSERT INTO Carpark_Lot_Decom VALUES (54, 'CP004', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (55, 'CP004', 'B');
-INSERT INTO Carpark_Lot_Decom VALUES (56, 'CP004', 'Y');
-INSERT INTO Carpark_Lot_Decom VALUES (57, 'CP004', 'R');
-INSERT INTO Carpark_Lot_Decom VALUES (58, 'CP004', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (59, 'CP004', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (60, 'CP004', 'W');
-INSERT INTO Carpark_Lot_Decom VALUES (61, 'CP004', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (41, 'CP005', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (42, 'CP005', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (43, 'CP005', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (44, 'CP005', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (45, 'CP005', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (46, 'CP005', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (47, 'CP005', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (48, 'CP005', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (49, 'CP005', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (50, 'CP005', 'W');
+
+	INSERT INTO Carpark_Lot_Decom VALUES (51, 'CP006', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (52, 'CP006', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (53, 'CP006', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (54, 'CP006', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (55, 'CP006', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (56, 'CP006', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (57, 'CP006', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (58, 'CP006', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (59, 'CP006', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (60, 'CP006', 'W');
+
+	INSERT INTO Carpark_Lot_Decom VALUES (61, 'CP007', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (62, 'CP007', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (63, 'CP007', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (64, 'CP007', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (65, 'CP007', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (66, 'CP007', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (67, 'CP007', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (68, 'CP007', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (69, 'CP007', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (70, 'CP007', 'W');
+
+	INSERT INTO Carpark_Lot_Decom VALUES (71, 'CP008', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (72, 'CP008', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (73, 'CP008', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (74, 'CP008', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (75, 'CP008', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (76, 'CP008', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (77, 'CP008', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (78, 'CP008', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (79, 'CP008', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (80, 'CP008', 'W');
+
+	INSERT INTO Carpark_Lot_Decom VALUES (81, 'CP009', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (82, 'CP009', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (83, 'CP009', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (84, 'CP009', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (85, 'CP009', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (86, 'CP009', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (87, 'CP009', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (88, 'CP009', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (89, 'CP009', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (90, 'CP009', 'R');
+
+	INSERT INTO Carpark_Lot_Decom VALUES (91, 'CP010', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (92, 'CP010', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (93, 'CP010', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (94, 'CP010', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (95, 'CP010', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (96, 'CP010', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (97, 'CP010', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (98, 'CP010', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (99, 'CP010', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (100, 'CP010', 'Y');
+
+	INSERT INTO Carpark_Lot_Decom VALUES (101, 'CP011', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (102, 'CP011', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (103, 'CP011', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (104, 'CP011', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (105, 'CP011', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (106, 'CP011', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (107, 'CP011', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (108, 'CP011', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (109, 'CP011', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (110, 'CP011', 'W');
+
+	INSERT INTO Carpark_Lot_Decom VALUES (111, 'CP012', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (112, 'CP012', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (113, 'CP012', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (114, 'CP012', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (115, 'CP012', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (116, 'CP012', 'B');
+	INSERT INTO Carpark_Lot_Decom VALUES (117, 'CP012', 'W');
+	INSERT INTO Carpark_Lot_Decom VALUES (118, 'CP012', 'Y');
+	INSERT INTO Carpark_Lot_Decom VALUES (119, 'CP012', 'R');
+	INSERT INTO Carpark_Lot_Decom VALUES (120, 'CP012', 'W');
+
 
 
 -- Short_Term_Parking_Rate
 -- Surface Carparks
-INSERT INTO Short_Term_Parking_Rate VALUES (1, 0.60, '30 mins', 'Weekday', 'Car');
-INSERT INTO Short_Term_Parking_Rate VALUES (2, 0.80, '60 mins', 'Weekday', 'Car');
-INSERT INTO Short_Term_Parking_Rate VALUES (3, 0.30, '30 mins', 'Weekday', 'Motorcycle');
-INSERT INTO Short_Term_Parking_Rate VALUES (4, 0.50, '60 mins', 'Weekday', 'Motorcycle');
-INSERT INTO Short_Term_Parking_Rate VALUES (5, 1.00, '30 mins', 'Weekday', 'Commercial Vehicle');
-INSERT INTO Short_Term_Parking_Rate VALUES (6, 1.80, '60 mins', 'Weekday', 'Commercial Vehicle');
-INSERT INTO Short_Term_Parking_Rate VALUES (7, 0.60, '30 mins', 'Weekend', 'Car');
-INSERT INTO Short_Term_Parking_Rate VALUES (8, 1.20, '60 mins', 'Weekend', 'Car');
-INSERT INTO Short_Term_Parking_Rate VALUES (9, 0.30, '30 mins', 'Weekend', 'Motorcycle');
-INSERT INTO Short_Term_Parking_Rate VALUES (10, 0.50, '60 mins', 'Weekend', 'Motorcycle');
-INSERT INTO Short_Term_Parking_Rate VALUES (11, 1.00, '30 mins', 'Weekend', 'Commercial Vehicle');
-INSERT INTO Short_Term_Parking_Rate VALUES (12, 1.80, '60 mins', 'Weekend', 'Commercial Vehicle');
+INSERT INTO Short_Term_Parking_Rate VALUES (1, 0.80, '7:00 - 22:30', 'Weekday', 'Car');
+INSERT INTO Short_Term_Parking_Rate VALUES (2, 0.60, '7:00 - 22:30', 'Weekday', 'Motorcycle');
+INSERT INTO Short_Term_Parking_Rate VALUES (3, 1.80, '7:00 - 22:30', 'Weekday', 'Commercial Vehicle');
+
+INSERT INTO Short_Term_Parking_Rate VALUES (4, 1.20, '7:00 - 24:00', 'Weekend', 'Car');
+INSERT INTO Short_Term_Parking_Rate VALUES (5, 0.50, '7:00 - 24:00', 'Weekend', 'Motorcycle');
+INSERT INTO Short_Term_Parking_Rate VALUES (6, 1.80, '7:00 - 24:00', 'Weekend', 'Commercial Vehicle');
+
+INSERT INTO Short_Term_Parking_Rate VALUES (7, 1.00, '24h', 'Public Holiday', 'Car');
+INSERT INTO Short_Term_Parking_Rate VALUES (8, 0.50, '24h', 'Public Holiday', 'Motorcycle');
+INSERT INTO Short_Term_Parking_Rate VALUES (9, 1.80, '24h', 'Public Holiday', 'Commercial Vehicle');
+
 -- MSCP Carparks
-INSERT INTO Short_Term_Parking_Rate VALUES (13, 0.80, '30 mins', 'Weekday', 'Car');
-INSERT INTO Short_Term_Parking_Rate VALUES (14, 1.50, '60 mins', 'Weekday', 'Car');
-INSERT INTO Short_Term_Parking_Rate VALUES (15, 0.40, '30 mins', 'Weekday', 'Motorcycle');
-INSERT INTO Short_Term_Parking_Rate VALUES (16, 0.70, '60 mins', 'Weekday', 'Motorcycle');
-INSERT INTO Short_Term_Parking_Rate VALUES (17, 1.50, '30 mins', 'Weekday', 'Commercial Vehicle');
-INSERT INTO Short_Term_Parking_Rate VALUES (18, 2.80, '60 mins', 'Weekday', 'Commercial Vehicle');
-INSERT INTO Short_Term_Parking_Rate VALUES (19, 0.80, '30 mins', 'Weekend', 'Car');
-INSERT INTO Short_Term_Parking_Rate VALUES (20, 1.50, '60 mins', 'Weekend', 'Car');
-INSERT INTO Short_Term_Parking_Rate VALUES (21, 0.40, '30 mins', 'Weekend', 'Motorcycle');
-INSERT INTO Short_Term_Parking_Rate VALUES (22, 0.70, '60 mins', 'Weekend', 'Motorcycle');
-INSERT INTO Short_Term_Parking_Rate VALUES (23, 1.50, '30 mins', 'Weekend', 'Commercial Vehicle');
-INSERT INTO Short_Term_Parking_Rate VALUES (24, 2.80, '60 mins', 'Weekend', 'Commercial Vehicle');
-INSERT INTO Short_Term_Parking_Rate VALUES (25, 2.00, '60 mins', 'Public Holiday', 'Car');
+INSERT INTO Short_Term_Parking_Rate VALUES (10, 1.50, '7:00 - 22:30', 'Weekday', 'Car');
+INSERT INTO Short_Term_Parking_Rate VALUES (11, 0.70, '7:00 - 22:30', 'Weekday', 'Motorcycle');
+INSERT INTO Short_Term_Parking_Rate VALUES (12, 2.80, '7:00 - 22:30', 'Weekday', 'Commercial Vehicle');
 
--- Parking_Transaction
--- Surface Carparks (12 transactions)
-INSERT INTO Parking_Transaction VALUES (1001, 'Monday', '2025-10-06 08:00:00', '2025-10-06 08:30:00', 30, 'CP001', 1, 'SGX1234A', 1);
-INSERT INTO Parking_Transaction VALUES (1002, 'Tuesday', '2025-10-07 09:00:00', '2025-10-07 10:00:00', 60, 'CP003', 2, 'SMR1001A', 4);
-INSERT INTO Parking_Transaction VALUES (1003, 'Wednesday', '2025-10-08 10:00:00', '2025-10-08 11:45:00', 105, 'CP005', 3, 'SML3003C', 5);
-INSERT INTO Parking_Transaction VALUES (1004, 'Thursday', '2025-10-09 12:00:00', '2025-10-09 13:30:00', 90, 'CP007', 4, 'SMR4004D', 4);
-INSERT INTO Parking_Transaction VALUES (1005, 'Friday', '2025-10-10 08:30:00', '2025-10-10 10:45:00', 135, 'CP009', 5, 'SGY5678B', 2);
-INSERT INTO Parking_Transaction VALUES (1006, 'Friday', '2025-10-10 09:15:00', '2025-10-10 11:30:00', 135, 'CP011', 6, 'SML5005E', 6);
-INSERT INTO Parking_Transaction VALUES (1007, 'Saturday', '2025-10-11 09:00:00', '2025-10-11 09:30:00', 30, 'CP001', 1, 'SMC6006F', 7);
-INSERT INTO Parking_Transaction VALUES (1008, 'Saturday', '2025-10-11 10:00:00', '2025-10-11 12:15:00', 135, 'CP003', 2, 'SMR7007G', 10);
-INSERT INTO Parking_Transaction VALUES (1009, 'Sunday', '2025-10-12 08:30:00', '2025-10-12 10:00:00', 90, 'CP005', 3, 'SML8008H', 11);
-INSERT INTO Parking_Transaction VALUES (1010, 'Sunday', '2025-10-12 09:00:00', '2025-10-12 09:50:00', 50, 'CP007', 4, 'SMC9009I', 8);
-INSERT INTO Parking_Transaction VALUES (1011, 'Saturday', '2025-10-11 08:15:00', '2025-10-11 10:30:00', 135, 'CP009', 5, 'SMR1313M', 10);
-INSERT INTO Parking_Transaction VALUES (1012, 'Sunday', '2025-10-12 09:00:00', '2025-10-12 10:00:00', 60, 'CP011', 6, 'SML1414N', 12);
+INSERT INTO Short_Term_Parking_Rate VALUES (13, 1.50, '7:00 - 24:00', 'Weekend', 'Car');
+INSERT INTO Short_Term_Parking_Rate VALUES (14, 0.70, '7:00 - 24:00', 'Weekend', 'Motorcycle');
+INSERT INTO Short_Term_Parking_Rate VALUES (15, 2.80, '7:00 - 24:00', 'Weekend', 'Commercial Vehicle');
 
---- MSCP Carparks (13 transactions)
-INSERT INTO Parking_Transaction VALUES (1013, 'Monday', '2025-10-13 08:00:00', '2025-10-13 08:45:00', 45, 'CP002', 13, 'SGX1234A', 14);
-INSERT INTO Parking_Transaction VALUES (1014, 'Tuesday', '2025-10-14 09:00:00', '2025-10-14 09:30:00', 30, 'CP004', 14, 'SMR1001A', 16);
-INSERT INTO Parking_Transaction VALUES (1015, 'Wednesday', '2025-10-15 08:30:00', '2025-10-15 09:00:00', 30, 'CP006', 15, 'SML3003C', 17);
-INSERT INTO Parking_Transaction VALUES (1016, 'Thursday', '2025-10-16 09:00:00', '2025-10-16 09:40:00', 40, 'CP008', 16, 'SMR4004D', 16);
-INSERT INTO Parking_Transaction VALUES (1017, 'Friday', '2025-10-17 07:30:00', '2025-10-17 08:15:00', 45, 'CP010', 17, 'SGY5678B', 14);
-INSERT INTO Parking_Transaction VALUES (1018, 'Friday', '2025-10-17 08:00:00', '2025-10-17 10:20:00', 140, 'CP012', 18, 'SML5005E', 18);
-INSERT INTO Parking_Transaction VALUES (1019, 'Friday', '2025-10-18 09:15:00', '2025-10-18 09:45:00', 30, 'CP002', 13, 'SMC6006F', 19);
-INSERT INTO Parking_Transaction VALUES (1020, 'Saturday', '2025-10-18 10:00:00', '2025-10-18 12:30:00', 150, 'CP004', 14, 'SMR7007G', 22);
-INSERT INTO Parking_Transaction VALUES (1021, 'Sunday', '2025-10-19 08:30:00', '2025-10-19 10:15:00', 105, 'CP006', 15, 'SML8008H', 23);
-INSERT INTO Parking_Transaction VALUES (1022, 'Sunday', '2025-10-19 09:00:00', '2025-10-19 09:50:00', 50, 'CP008', 16, 'SMC9009I', 20);
-INSERT INTO Parking_Transaction VALUES (1023, 'Saturday', '2025-10-18 08:00:00', '2025-10-18 09:50:00', 110, 'CP010', 17, 'SMR1313M', 22);
-INSERT INTO Parking_Transaction VALUES (1024, 'Sunday', '2025-10-19 09:15:00', '2025-10-19 11:45:00', 150, 'CP012', 18, 'SML1414N', 24);
-INSERT INTO Parking_Transaction VALUES (1025, 'Public Holiday', '2025-12-25 08:30:00', '2025-12-25 10:45:00', 135, 'CP002', 13, 'SGX1234A', 25);
+INSERT INTO Short_Term_Parking_Rate VALUES (16, 1.50, '24h', 'Public Holiday', 'Car');
+INSERT INTO Short_Term_Parking_Rate VALUES (17, 0.70, '24h', 'Public Holiday', 'Motorcycle');
+INSERT INTO Short_Term_Parking_Rate VALUES (18, 2.80, '24h', 'Public Holiday', 'Commercial Vehicle');
+
+-- Parking_Transaction (corrected carpark_lot_id and parking_rate_id)
+-- Surface Carparks: CP001, CP003, CP005, CP007, CP009, CP011
+INSERT INTO Parking_Transaction VALUES (1051, 'Monday', '2025-10-13 08:00:00', '2025-10-13 08:45:00', 45, 'CP001', 1, 'SGX1234A', 1);
+INSERT INTO Parking_Transaction VALUES (1052, 'Tuesday', '2025-10-14 09:15:00', '2025-10-14 09:55:00', 40, 'CP001', 5, 'SMC2002B', 1);
+INSERT INTO Parking_Transaction VALUES (1053, 'Wednesday', '2025-10-15 10:00:00', '2025-10-15 10:30:00', 30, 'CP001', 9, 'SMC6006F', 1);
+
+INSERT INTO Parking_Transaction VALUES (1054, 'Monday', '2025-10-13 08:15:00', '2025-10-13 09:00:00', 45, 'CP003', 21, 'SML3003C', 3);
+INSERT INTO Parking_Transaction VALUES (1055, 'Tuesday', '2025-10-14 09:30:00', '2025-10-14 10:10:00', 40, 'CP003', 25, 'SML8008H', 3);
+INSERT INTO Parking_Transaction VALUES (1056, 'Wednesday', '2025-10-15 10:15:00', '2025-10-15 10:50:00', 35, 'CP003', 29, 'SML2020T', 3);
+
+INSERT INTO Parking_Transaction VALUES (1057, 'Thursday', '2025-10-16 08:00:00', '2025-10-16 08:40:00', 40, 'CP005', 41, 'SGY5678B', 1);
+INSERT INTO Parking_Transaction VALUES (1058, 'Friday', '2025-10-17 08:10:00', '2025-10-17 08:50:00', 40, 'CP005', 45, 'SMC1212L', 1);
+INSERT INTO Parking_Transaction VALUES (1059, 'Saturday', '2025-10-18 09:00:00', '2025-10-18 09:35:00', 35, 'CP005', 49, 'SML1414N', 1);
+
+INSERT INTO Parking_Transaction VALUES (1060, 'Monday', '2025-10-13 08:30:00', '2025-10-13 09:10:00', 40, 'CP007', 61, 'SMR1001A', 2);
+INSERT INTO Parking_Transaction VALUES (1061, 'Tuesday', '2025-10-14 09:00:00', '2025-10-14 09:45:00', 45, 'CP007', 65, 'SMC6006F', 1);
+INSERT INTO Parking_Transaction VALUES (1062, 'Wednesday', '2025-10-15 10:15:00', '2025-10-15 10:55:00', 40, 'CP007', 69, 'SML8008H', 3);
+
+INSERT INTO Parking_Transaction VALUES (1063, 'Thursday', '2025-10-16 08:15:00', '2025-10-16 08:55:00', 40, 'CP009', 81, 'SGX1234A', 1);
+INSERT INTO Parking_Transaction VALUES (1064, 'Friday', '2025-10-17 09:00:00', '2025-10-17 09:40:00', 40, 'CP009', 85, 'SMC1212L', 1);
+INSERT INTO Parking_Transaction VALUES (1065, 'Saturday', '2025-10-18 10:10:00', '2025-10-18 10:50:00', 40, 'CP009', 89, 'SML1414N', 1);
+
+INSERT INTO Parking_Transaction VALUES (1066, 'Sunday', '2025-10-19 08:00:00', '2025-10-19 08:45:00', 45, 'CP011', 101, 'SGY5678B', 1);
+INSERT INTO Parking_Transaction VALUES (1067, 'Monday', '2025-10-20 09:00:00', '2025-10-20 09:40:00', 40, 'CP011', 105, 'SMC1212L', 1);
+INSERT INTO Parking_Transaction VALUES (1068, 'Tuesday', '2025-10-21 08:30:00', '2025-10-21 09:10:00', 40, 'CP011', 109, 'SML1414N', 3);
+
+-- MSCP Carparks: CP002, CP004, CP006, CP008, CP010, CP012
+INSERT INTO Parking_Transaction VALUES (1071, 'Monday', '2025-10-13 08:00:00', '2025-10-13 08:45:00', 45, 'CP002', 12, 'SGX1234A', 10);
+INSERT INTO Parking_Transaction VALUES (1072, 'Tuesday', '2025-10-14 09:00:00', '2025-10-14 09:30:00', 30, 'CP002', 16, 'SMC2002B', 10);
+INSERT INTO Parking_Transaction VALUES (1073, 'Wednesday', '2025-10-15 08:30:00', '2025-10-15 09:00:00', 30, 'CP002', 20, 'SMC6006F', 10);
+
+INSERT INTO Parking_Transaction VALUES (1074, 'Thursday', '2025-10-16 09:00:00', '2025-10-16 09:40:00', 40, 'CP004', 34, 'SMR1001A', 11);
+INSERT INTO Parking_Transaction VALUES (1075, 'Friday', '2025-10-17 07:30:00', '2025-10-17 08:15:00', 45, 'CP004', 38, 'SMR2222V', 11);
+INSERT INTO Parking_Transaction VALUES (1076, 'Saturday', '2025-10-18 09:15:00', '2025-10-18 09:50:00', 35, 'CP004', 32, 'SMC2121U', 12);
+
+INSERT INTO Parking_Transaction VALUES (1077, 'Sunday', '2025-10-19 08:30:00', '2025-10-19 10:15:00', 105, 'CP006', 52, 'SML3003C', 12);
+INSERT INTO Parking_Transaction VALUES (1078, 'Monday', '2025-10-20 09:00:00', '2025-10-20 09:40:00', 40, 'CP006', 56, 'SML8008H', 12);
+INSERT INTO Parking_Transaction VALUES (1079, 'Tuesday', '2025-10-21 08:30:00', '2025-10-21 09:10:00', 40, 'CP006', 60, 'SML2020T', 12);
+
+INSERT INTO Parking_Transaction VALUES (1080, 'Wednesday', '2025-10-22 08:00:00', '2025-10-22 08:50:00', 50, 'CP008', 72, 'SMR4004D', 14);
+INSERT INTO Parking_Transaction VALUES (1081, 'Thursday', '2025-10-23 09:00:00', '2025-10-23 09:40:00', 40, 'CP008', 76, 'SMC9009I', 13);
+INSERT INTO Parking_Transaction VALUES (1082, 'Friday', '2025-10-24 08:30:00', '2025-10-24 09:15:00', 45, 'CP008', 80, 'SMR1616P', 14);
+
+INSERT INTO Parking_Transaction VALUES (1083, 'Saturday', '2025-10-25 08:00:00', '2025-10-25 08:50:00', 50, 'CP010', 91, 'SGY5678B', 16);
+INSERT INTO Parking_Transaction VALUES (1084, 'Sunday', '2025-10-26 09:00:00', '2025-10-26 09:45:00', 45, 'CP010', 95, 'SMR1313M', 16);
+INSERT INTO Parking_Transaction VALUES (1085, 'Monday', '2025-10-27 08:30:00', '2025-10-27 09:15:00', 45, 'CP010', 99, 'SGX1234A', 10);
+
+INSERT INTO Parking_Transaction VALUES (1086, 'Tuesday', '2025-10-28 08:00:00', '2025-10-28 08:45:00', 45, 'CP012', 111, 'SML5005E', 18);
+INSERT INTO Parking_Transaction VALUES (1087, 'Wednesday', '2025-10-29 09:00:00', '2025-10-29 09:35:00', 35, 'CP012', 114, 'SMC1212L', 17);
+INSERT INTO Parking_Transaction VALUES (1088, 'Thursday', '2025-10-30 08:30:00', '2025-10-30 09:10:00', 40, 'CP012', 117, 'SML1414N', 18);
+
+
 
 -- Offence
 INSERT INTO Offence (date_time, rule_no, vehicle_type, VRN, carpark_id, officer_name) VALUES
@@ -372,37 +473,69 @@ INSERT INTO Season_Parking_Pass_Decom VALUES (2005, 'Commercial Vehicle', 'Surfa
 INSERT INTO Season_Parking_Pass_Decom VALUES (2006, 'Commercial Vehicle', 'MSCP');   
 
 -- Purchases
-INSERT INTO Purchases VALUES ('SGX1234A', 2001, 'CP001', '2025-10-01 08:00:00', '2025-10-01', '2026-01-01', 160.00);
-INSERT INTO Purchases VALUES ('SGY5678B', 2002, 'CP002', '2025-10-02 09:15:00', '2025-10-02', '2026-02-02', 330.00);
-INSERT INTO Purchases VALUES ('SMR1001A', 2003, 'CP003', '2025-10-03 10:30:00', '2025-10-03', '2025-11-02', 15.00);
-INSERT INTO Purchases VALUES ('SMC2002B', 2002, 'CP004', '2025-10-04 11:00:00', '2025-10-04', '2025-11-03', 110.00);
-INSERT INTO Purchases VALUES ('SML3003C', 2005, 'CP005', '2025-10-05 12:00:00', '2025-10-05', '2025-11-04', 185.00);
-INSERT INTO Purchases VALUES ('SMR4004D', 2004, 'CP006', '2025-10-06 13:30:00', '2025-10-06', '2025-11-05', 17.00);
-INSERT INTO Purchases VALUES ('SML3003C', 2006, 'CP007', '2025-10-07 14:00:00', '2025-10-07', '2025-11-06', 185.00);
-INSERT INTO Purchases VALUES ('SMC6006F', 2002, 'CP008', '2025-10-08 15:15:00', '2025-10-08', '2025-11-07', 110.00);
-INSERT INTO Purchases VALUES ('SMR7007G', 2004, 'CP001', '2025-10-09 16:30:00', '2025-10-09', '2025-11-08', 17.00);
-INSERT INTO Purchases VALUES ('SML8008H', 2006, 'CP002', '2025-10-10 17:45:00', '2025-10-10', '2025-11-09', 185.00);
-INSERT INTO Purchases VALUES ('SMC9009I', 2002, 'CP003', '2025-10-11 08:20:00', '2025-10-11', '2025-11-10', 110.00);
-INSERT INTO Purchases VALUES ('SMR1010J', 2004, 'CP004', '2025-10-12 09:50:00', '2025-10-12', '2025-11-11', 17.00);
 
--- CP001: Add 8 more purchases (total 9 out of 10 = 90%)
+-- CP001 (Surface)
+INSERT INTO Purchases VALUES ('SGX1234A', 2001, 'CP001', '2025-10-01 08:00:00', '2025-10-01', '2026-01-01', 240.00);
+INSERT INTO Purchases VALUES ('SMR7007G', 2003, 'CP001', '2025-10-09 16:30:00', '2025-10-09', '2025-11-08', 15.00);
 INSERT INTO Purchases VALUES ('SMC2002B', 2001, 'CP001', '2025-10-05 10:00:00', '2025-10-05', '2025-11-04', 80.00);
-INSERT INTO Purchases VALUES ('SML3003C', 2001, 'CP001', '2025-10-06 11:00:00', '2025-10-06', '2025-11-05', 80.00);
+INSERT INTO Purchases VALUES ('SML3003C', 2005, 'CP001', '2025-10-06 11:00:00', '2025-10-06', '2025-11-05', 185.00);
 INSERT INTO Purchases VALUES ('SMR1001A', 2003, 'CP001', '2025-10-07 12:00:00', '2025-10-07', '2025-11-06', 15.00);
-INSERT INTO Purchases VALUES ('SML5005E', 2001, 'CP001', '2025-10-08 13:00:00', '2025-10-08', '2025-11-07', 80.00);
+INSERT INTO Purchases VALUES ('SML5005E', 2005, 'CP001', '2025-10-08 13:00:00', '2025-10-08', '2025-11-07', 185.00);
 INSERT INTO Purchases VALUES ('SMC6006F', 2001, 'CP001', '2025-10-09 14:00:00', '2025-10-09', '2025-11-08', 80.00);
-INSERT INTO Purchases VALUES ('SML8008H', 2001, 'CP001', '2025-10-10 15:00:00', '2025-10-10', '2025-11-09', 80.00);
+INSERT INTO Purchases VALUES ('SML8008H', 2005, 'CP001', '2025-10-10 15:00:00', '2025-10-10', '2025-11-09', 185.00);
 INSERT INTO Purchases VALUES ('SMR1010J', 2003, 'CP001', '2025-10-12 17:00:00', '2025-10-12', '2025-11-11', 15.00);
-INSERT INTO Purchases VALUES ('SMR1010J', 2003, 'CP001', '2025-10-13 18:00:00', '2025-11-12', '2025-12-11', 15.00);
 
--- CP003: Add 7 more purchases (total 9 out of 10 = 90%, since it already has 2)
-INSERT INTO Purchases VALUES ('SML3003C', 2001, 'CP003', '2025-10-15 11:00:00', '2025-10-15', '2025-11-14', 80.00);
+-- CP003 (Surface)
+INSERT INTO Purchases VALUES ('SMC2121U', 2001, 'CP003', '2025-10-15 11:00:00', '2025-10-15', '2025-11-14', 80.00);
 INSERT INTO Purchases VALUES ('SMR4004D', 2003, 'CP003', '2025-10-16 12:00:00', '2025-10-16', '2025-11-15', 15.00);
-INSERT INTO Purchases VALUES ('SML5005E', 2001, 'CP003', '2025-10-17 13:00:00', '2025-10-17', '2025-11-16', 80.00);
-INSERT INTO Purchases VALUES ('SMC6006F', 2001, 'CP003', '2025-10-18 14:00:00', '2025-10-18', '2025-11-17', 80.00);
-INSERT INTO Purchases VALUES ('SML8008H', 2001, 'CP003', '2025-10-19 15:00:00', '2025-10-19', '2025-11-18', 80.00);
-INSERT INTO Purchases VALUES ('SMR1010J', 2003, 'CP003', '2025-10-20 17:00:00', '2025-10-20', '2025-11-19', 15.00);
-INSERT INTO Purchases VALUES ('SMC6006F', 2005, 'CP003', '2025-10-21 18:00:00', '2025-10-21', '2025-11-20', 80.00);
+INSERT INTO Purchases VALUES ('SML2020T', 2005, 'CP003', '2025-10-17 13:00:00', '2025-10-17', '2025-11-16', 185.00);
+INSERT INTO Purchases VALUES ('SMR1313M', 2003, 'CP003', '2025-10-18 14:00:00', '2025-10-18', '2025-11-17', 15.00);
+INSERT INTO Purchases VALUES ('SMR1919S', 2003, 'CP003', '2025-10-19 15:00:00', '2025-10-19', '2025-11-18', 15.00);
+INSERT INTO Purchases VALUES ('SGY5678B', 2001, 'CP003', '2025-10-20 17:00:00', '2025-10-20', '2025-11-19', 80.00);
+INSERT INTO Purchases VALUES ('SMC1212L', 2002, 'CP003', '2025-10-22 09:00:00', '2025-10-22', '2025-11-21', 110.00);
+INSERT INTO Purchases VALUES ('SMC1818R', 2001, 'CP003', '2025-10-23 10:00:00', '2025-10-23', '2025-11-22', 80.00);
+INSERT INTO Purchases VALUES ('SMR1616P', 2003, 'CP003', '2025-10-21 18:00:00', '2025-10-21', '2025-11-20', 15.00);
+
+-- CP005 (Surface)
+INSERT INTO Purchases VALUES ('SML1414N', 2005, 'CP005', '2025-10-07 10:00:00', '2025-10-07', '2025-11-06', 185.00);
+
+-- CP007 (Surface)
+INSERT INTO Purchases VALUES ('SMR4004D', 2003, 'CP007', '2025-10-09 16:00:00', '2025-10-09', '2025-11-08', 15.00);
+
+-- CP009 (Surface)
+INSERT INTO Purchases VALUES ('SML1717Q', 2005, 'CP009', '2025-10-06 11:30:00', '2025-10-06', '2025-11-05', 185.00);
+
+-- CP011 (Surface)
+INSERT INTO Purchases VALUES ('SGX1234A', 2002, 'CP011', '2025-10-09 12:00:00', '2025-10-09', '2025-11-08', 110.00);
+
+-- CP002 (MSCP)
+INSERT INTO Purchases VALUES ('SGY5678B', 2002, 'CP002', '2025-10-02 09:15:00', '2025-10-02', '2026-02-02', 440.00);
+INSERT INTO Purchases VALUES ('SMC9009I', 2002, 'CP002', '2025-10-05 11:20:00', '2025-10-05', '2025-11-04', 110.00);
+INSERT INTO Purchases VALUES ('SMR1001A', 2004, 'CP002', '2025-10-06 09:40:00', '2025-10-06', '2025-11-05', 17.00);
+INSERT INTO Purchases VALUES ('SMC2002B', 2002, 'CP002', '2025-10-07 10:00:00', '2025-10-07', '2025-11-06', 110.00);
+INSERT INTO Purchases VALUES ('SMR4004D', 2004, 'CP002', '2025-10-08 14:00:00', '2025-10-08', '2025-11-07', 17.00);
+INSERT INTO Purchases VALUES ('SML2323W', 2006, 'CP002', '2025-10-09 16:00:00', '2025-10-09', '2025-11-08', 185.00);
+INSERT INTO Purchases VALUES ('SMR2222V', 2004, 'CP002', '2025-10-10 17:45:00', '2025-10-10', '2025-11-09', 17.00);
+INSERT INTO Purchases VALUES ('SMC1515O', 2002, 'CP002', '2025-10-11 08:50:00', '2025-10-11', '2025-11-10', 110.00);
+INSERT INTO Purchases VALUES ('SMC1818R', 2002, 'CP002', '2025-10-12 09:30:00', '2025-10-12', '2025-11-11', 110.00);
+
+-- CP004 (MSCP)
+INSERT INTO Purchases VALUES ('SML8008H', 2006, 'CP004', '2025-10-16 14:30:00', '2025-10-16', '2025-11-15', 185.00);
+INSERT INTO Purchases VALUES ('SMR1001A', 2003, 'CP004', '2025-10-19 17:30:00', '2025-10-19', '2025-11-18', 15.00);
+
+-- CP006 (MSCP)
+INSERT INTO Purchases VALUES ('SML3003C', 2006, 'CP006', '2025-10-08 10:00:00', '2025-10-08', '2025-11-07', 185.00);
+INSERT INTO Purchases VALUES ('SMR1001A', 2003, 'CP006', '2025-10-19 17:30:00', '2025-10-19', '2025-11-18', 15.00);
+
+-- CP008 (MSCP)
+INSERT INTO Purchases VALUES ('SMC6006F', 2002, 'CP008', '2025-10-08 15:15:00', '2025-10-08', '2025-11-07', 110.00);
+
+-- CP010 (MSCP)
+INSERT INTO Purchases VALUES ('SML1111K', 2006, 'CP010', '2025-10-08 14:15:00', '2025-10-08', '2025-11-07', 185.00);
+
+-- CP012 (MSCP)
+INSERT INTO Purchases VALUES ('SMR4004D', 2004, 'CP012', '2025-10-12 13:40:00', '2025-10-12', '2025-11-11', 17.00);
+
 
 
 -- Accesses
