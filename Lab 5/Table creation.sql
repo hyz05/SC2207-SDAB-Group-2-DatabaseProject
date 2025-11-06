@@ -181,3 +181,15 @@ CREATE TABLE Purchases (
     CONSTRAINT FK_Purchases_Carpark FOREIGN KEY (carpark_id) REFERENCES Carpark(carpark_id)
 );
 GO
+
+CREATE TABLE Parks (
+    VRN VARCHAR(20) NOT NULL,
+    carpark_id VARCHAR(20) NOT NULL,
+    parking_start DATETIME NOT NULL,
+    parking_end DATETIME NOT NULL,
+    parking_type NVARCHAR(20) NOT NULL,
+    PRIMARY KEY (VRN, parking_start),
+    CONSTRAINT FK_Parks_Vehicle FOREIGN KEY (VRN) REFERENCES Vehicle_Decom(VRN),
+    CONSTRAINT FK_Parks_Carpark FOREIGN KEY (carpark_id) REFERENCES Carpark(carpark_id)
+);
+GO

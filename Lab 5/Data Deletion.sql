@@ -9,6 +9,7 @@ DELETE FROM Season_Parking_Pass_Decom;
 DELETE FROM Carpark_Lot_Decom;
 DELETE FROM Resident;
 DELETE FROM HDB_Block_Decom;
+DELETE FROM Parks;
 DELETE FROM Vehicle_Decom;
 
 DELETE FROM Short_Term_Parking_Rate;
