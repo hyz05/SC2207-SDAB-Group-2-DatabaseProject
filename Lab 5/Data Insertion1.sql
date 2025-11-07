@@ -429,13 +429,13 @@ INSERT INTO Parking_Transaction VALUES (1088, 'Thursday', '2025-10-30 08:30:00',
 
 
 
--- Offence
+-- Offence (1001A, 3003C, 4004D, 5678B)
 INSERT INTO Offence (date_time, rule_no, vehicle_type, VRN, carpark_id, officer_name) VALUES
 ('2025-10-06 08:00:00', 3, N'Car', 'SGX1234A', 'CP001', N'Officer Lee'),
-('2025-10-07 09:00:00', 4, N'Motorcycle', 'SMR1001A', 'CP003', N'Officer Tan'),
+('2025-10-07 09:00:00', 4, N'Motorcycle', 'SMR1001A', 'CP007', N'Officer Tan'),
+('2025-11-06 12:00:00', 4, N'Motorcycle', 'SMR4004D', 'CP002', N'Officer Lee'),
 ('2025-10-08 10:00:00', 10, N'Commercial Vehicle', 'SML3003C', 'CP005', N'Officer Lim'),
 ('2025-10-09 12:00:00', 12, N'Motorcycle', 'SMR4004D', 'CP007', N'Officer Wong'),
-('2025-10-10 08:30:00', 13, N'Car', 'SGY5678B', 'CP009', N'Officer Lee'),
 ('2025-10-10 09:15:00', 16, N'Commercial Vehicle', 'SML5005E', 'CP011', N'Officer Tan'),
 ('2025-10-11 09:00:00', 18, N'Car', 'SMC6006F', 'CP001', N'Officer Lim'),
 ('2025-10-11 10:00:00', 29, N'Motorcycle', 'SMR7007G', 'CP003', N'Officer Lee'),
@@ -444,17 +444,28 @@ INSERT INTO Offence (date_time, rule_no, vehicle_type, VRN, carpark_id, officer_
 ('2025-10-12 09:00:00', 10, N'Commercial Vehicle', 'SML1414N', 'CP011', N'Officer Lee'),
 ('2025-10-13 08:00:00', 12, N'Car', 'SGX1234A', 'CP002', N'Officer Tan'),
 ('2025-10-14 09:00:00', 13, N'Motorcycle', 'SMR1001A', 'CP004', N'Officer Lim'),
-('2025-10-15 08:30:00', 16, N'Commercial Vehicle', 'SML3003C', 'CP006', N'Officer Lee'),
+('2025-10-14 19:00:00', 12, N'Motorcycle', 'SMR1001A', 'CP002', N'Officer Lee'),
 ('2025-10-16 09:00:00', 18, N'Car', 'SMR4004D', 'CP008', N'Officer Tan'),
+('2025-10-16 09:00:00', 4, N'Motorcycle', 'SMR1001A', 'CP004', N'Officer Tan'),
+('2025-10-16 08:30:00', 13, N'Car', 'SGY5678B', 'CP005', N'Officer Lee'),
 ('2025-10-17 07:30:00', 29, N'Motorcycle', 'SGY5678B', 'CP010', N'Officer Wong'),
 ('2025-10-17 08:00:00', 3, N'Car', 'SML5005E', 'CP012', N'Officer Lee'),
 ('2025-10-18 09:15:00', 4, N'Commercial Vehicle', 'SMC6006F', 'CP002', N'Officer Tan'),
 ('2025-10-18 10:00:00', 10, N'Motorcycle', 'SMR7007G', 'CP004', N'Officer Lim'),
-('2025-10-19 08:30:00', 12, N'Car', 'SML8008H', 'CP006', N'Officer Lee'),
-('2025-10-19 09:00:00', 13, N'Commercial Vehicle', 'SMC9009I', 'CP008', N'Officer Tan'),
 ('2025-10-18 08:00:00', 16, N'Car', 'SMR1313M', 'CP010', N'Officer Lee'),
+('2025-10-19 08:30:00', 12, N'Car', 'SML8008H', 'CP006', N'Officer Lee'),
+('2025-10-19 08:30:00', 13, N'Car', 'SGY5678B', 'CP011', N'Officer Wong'),
+('2025-10-19 09:00:00', 13, N'Commercial Vehicle', 'SMC9009I', 'CP008', N'Officer Tan'),
+('2025-10-19 08:30:00', 16, N'Commercial Vehicle', 'SML3003C', 'CP006', N'Officer Lee'),
 ('2025-10-19 09:15:00', 29, N'Commercial Vehicle', 'SML1414N', 'CP012', N'Officer Tan'),
-('2025-12-25 08:30:00', 3, N'Car', 'SGX1234A', 'CP002', N'Officer Lee');
+('2025-10-29 17:00:00', 12, N'Motorcycle', 'SMR4004D', 'CP007', N'Officer Wong'),
+('2025-10-29 18:00:00', 13, N'Car', 'SGY5678B', 'CP003', N'Officer Lee'),
+('2025-11-06 17:00:00', 12, N'Motorcycle', 'SMR4004D', 'CP007', N'Officer Lee'),
+('2025-11-07 09:30:00', 13, N'Car', 'SGY5678B', 'CP003', N'Officer Lim'),
+('2025-12-25 08:30:00', 3, N'Car', 'SGX1234A', 'CP002', N'Officer Lee'),
+('2026-01-16 10:30:00', 4, N'Commercial Vehicle', 'SML3003C', 'CP006', N'Officer Tan'),
+('2026-01-16 08:45:00', 4, N'Commercial Vehicle', 'SML3003C', 'CP006', N'Officer Wong'),
+('2026-02-05 11:30:00', 16, N'Commercial Vehicle', 'SML3003C', 'CP006', N'Officer Lee');
 
 -- Season_Rate
 -- Surface car parks
