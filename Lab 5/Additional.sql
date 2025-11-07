@@ -6,13 +6,13 @@ GO
 
 SELECT 
     p.NRIC,
-    p.person_name,
-    COUNT(o.offence_id) AS total_offenses
+    p.name,
+    COUNT(o.rule_no) AS total_offenses
 FROM Person p
 INNER JOIN Vehicle_Decom v ON p.NRIC = v.NRIC
 INNER JOIN Offence o ON v.VRN = o.VRN
 INNER JOIN Carpark c ON o.carpark_id = c.carpark_id
 WHERE c.Night_Parking = 'No'
-GROUP BY p.NRIC, p.person_name
-HAVING COUNT(o.offence_id) > 3
+GROUP BY p.NRIC, p.name
+HAVING COUNT(o.rule_no) > 3
 ORDER BY total_offenses DESC;
