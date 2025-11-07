@@ -1,18 +1,14 @@
-USE sdabg2
-GO
-
--- Find persons who have committed more than 3 parking offenses 
--- at carparks which do not allow night parking
-
 SELECT 
-    p.NRIC,
     p.name,
-    COUNT(o.rule_no) AS total_offenses
-FROM Person p
-INNER JOIN Vehicle_Decom v ON p.NRIC = v.NRIC
-INNER JOIN Offence o ON v.VRN = o.VRN
-INNER JOIN Carpark c ON o.carpark_id = c.carpark_id
-WHERE c.Night_Parking = 'No'
-GROUP BY p.NRIC, p.name
-HAVING COUNT(o.rule_no) > 3
-ORDER BY total_offenses DESC;
+    vd.NRIC,
+    COUNT(*) AS total_offences
+FROM Offence o
+JOIN Carpark c 
+    ON o.carpark_id = c.carpark_id
+JOIN Vehicle_Decom vd 
+    ON o.VRN = vd.VRN
+JOIN Person p 
+    ON vd.NRIC = p.NRIC
+WHERE c.night_parking = 'No'
+GROUP BY p.name, vd.NRIC
+HAVING COUNT(*) > 3;
